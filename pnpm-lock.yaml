@@ -277,6 +277,9 @@ importers:
       '@elizaos/plugin-dcap':
         specifier: workspace:*
         version: link:../packages/plugin-dcap
+      '@elizaos/plugin-defidive':
+        specifier: workspace:*
+        version: link:../packages/plugin-defidive
       '@elizaos/plugin-depin':
         specifier: workspace:*
         version: link:../packages/plugin-depin
@@ -2549,6 +2552,25 @@ importers:
         specifier: 8.3.5
         version: 8.3.5(@swc/core@1.10.14(@swc/helpers@0.5.15))(jiti@2.4.2)(postcss@8.5.1)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.7.0)
 
+  packages/plugin-defidive:
+    dependencies:
+      '@elizaos/core':
+        specifier: workspace:*
+        version: link:../core
+      tsup:
+        specifier: 8.3.5
+        version: 8.3.5(@swc/core@1.10.14(@swc/helpers@0.5.15))(jiti@2.4.2)(postcss@8.5.1)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.7.0)
+      whatwg-url:
+        specifier: 7.1.0
+        version: 7.1.0
+      zod:
+        specifier: ^3.22.4
+        version: 3.24.1
+    devDependencies:
+      '@types/node':
+        specifier: ^20.0.0
+        version: 20.17.9
+
   packages/plugin-depin:
     dependencies:
       '@elizaos/core':
@@ -4361,7 +4383,7 @@ importers:
         version: link:../plugin-trustdb
       '@solana/spl-token':
         specifier: 0.4.9
-        version: 0.4.9(@solana/web3.js@1.95.8(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)
+        version: 0.4.9(@solana/web3.js@1.95.8(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.7.3)(utf-8-validate@5.0.10)
       '@solana/web3.js':
         specifier: npm:@solana/web3.js@1.95.8
         version: 1.95.8(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
@@ -4373,7 +4395,7 @@ importers:
         version: 5.0.0
       fomo-sdk-solana:
         specifier: 1.3.2
-        version: 1.3.2(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)
+        version: 1.3.2(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.7.3)(utf-8-validate@5.0.10)
       form-data:
         specifier: 4.0.1
         version: 4.0.1
@@ -4382,16 +4404,16 @@ importers:
         version: 5.1.2
       pumpdotfun-sdk:
         specifier: 1.3.2
-        version: 1.3.2(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(rollup@4.34.4)(typescript@5.6.3)(utf-8-validate@5.0.10)
+        version: 1.3.2(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(rollup@4.34.4)(typescript@5.7.3)(utf-8-validate@5.0.10)
       solana-agent-kit:
         specifier: ^1.4.0
-        version: 1.4.4(@noble/hashes@1.7.1)(@solana/buffer-layout@4.0.1)(@swc/core@1.10.14(@swc/helpers@0.5.15))(@types/node@20.17.9)(arweave@1.15.5)(axios@1.7.9)(borsh@2.0.0)(buffer@6.0.3)(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(handlebars@4.7.8)(react@19.0.0)(sodium-native@3.4.1)(typescript@5.6.3)(utf-8-validate@5.0.10)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 1.4.4(@noble/hashes@1.7.1)(@solana/buffer-layout@4.0.1)(@swc/core@1.10.14(@swc/helpers@0.5.15))(@types/node@22.13.1)(arweave@1.15.5)(axios@1.7.9)(borsh@2.0.0)(buffer@6.0.3)(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(handlebars@4.7.8)(react@19.0.0)(sodium-native@3.4.1)(typescript@5.7.3)(utf-8-validate@5.0.10)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       tsup:
         specifier: 8.3.5
-        version: 8.3.5(@swc/core@1.10.14(@swc/helpers@0.5.15))(jiti@2.4.2)(postcss@8.5.1)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.7.0)
+        version: 8.3.5(@swc/core@1.10.14(@swc/helpers@0.5.15))(jiti@2.4.2)(postcss@8.5.1)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.7.0)
       vitest:
         specifier: 2.1.9
-        version: 2.1.9(@types/node@20.17.9)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(terser@5.38.0)
+        version: 2.1.9(@types/node@22.13.1)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(terser@5.38.0)
       whatwg-url:
         specifier: 7.1.0
         version: 7.1.0
@@ -4416,7 +4438,7 @@ importers:
         version: link:../plugin-trustdb
       '@solana/spl-token':
         specifier: 0.4.9
-        version: 0.4.9(@solana/web3.js@1.95.8(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.7.3)(utf-8-validate@5.0.10)
+        version: 0.4.9(@solana/web3.js@1.95.8(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@solana/web3.js':
         specifier: npm:@solana/web3.js@1.95.8
         version: 1.95.8(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
@@ -4431,7 +4453,7 @@ importers:
         version: 5.0.0
       fomo-sdk-solana:
         specifier: 1.3.2
-        version: 1.3.2(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.7.3)(utf-8-validate@5.0.10)
+        version: 1.3.2(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)
       form-data:
         specifier: 4.0.1
         version: 4.0.1
@@ -4440,16 +4462,16 @@ importers:
         version: 5.1.2
       pumpdotfun-sdk:
         specifier: 1.3.2
-        version: 1.3.2(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(rollup@4.34.4)(typescript@5.7.3)(utf-8-validate@5.0.10)
+        version: 1.3.2(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(rollup@4.34.4)(typescript@5.6.3)(utf-8-validate@5.0.10)
       solana-agent-kit:
         specifier: ^1.2.0
-        version: 1.4.4(@noble/hashes@1.7.1)(@solana/buffer-layout@4.0.1)(@swc/core@1.10.14(@swc/helpers@0.5.15))(@types/node@22.13.1)(arweave@1.15.5)(axios@1.7.9)(borsh@2.0.0)(buffer@6.0.3)(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(handlebars@4.7.8)(react@19.0.0)(sodium-native@3.4.1)(typescript@5.7.3)(utf-8-validate@5.0.10)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 1.4.4(@noble/hashes@1.7.1)(@solana/buffer-layout@4.0.1)(@swc/core@1.10.14(@swc/helpers@0.5.15))(@types/node@20.17.9)(arweave@1.15.5)(axios@1.7.9)(borsh@2.0.0)(buffer@6.0.3)(bufferutil@4.0.9)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(handlebars@4.7.8)(react@19.0.0)(sodium-native@3.4.1)(typescript@5.6.3)(utf-8-validate@5.0.10)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       tsup:
         specifier: 8.3.5
-        version: 8.3.5(@swc/core@1.10.14(@swc/helpers@0.5.15))(jiti@2.4.2)(postcss@8.5.1)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.7.0)
+        version: 8.3.5(@swc/core@1.10.14(@swc/helpers@0.5.15))(jiti@2.4.2)(postcss@8.5.1)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.7.0)
       vitest:
         specifier: 2.1.9
-        version: 2.1.9(@types/node@22.13.1)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(terser@5.38.0)
+        version: 2.1.9(@types/node@20.17.9)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(terser@5.38.0)
       whatwg-url:
         specifier: 7.1.0
         version: 7.1.0
@@ -46089,7 +46111,7 @@ snapshots:
 
   '@types/bs58@4.0.4':
     dependencies:
-      '@types/node': 22.13.1
+      '@types/node': 20.17.9
       base-x: 3.0.10
 
   '@types/cacheable-request@6.0.3':
@@ -47521,7 +47543,7 @@ snapshots:
       pathe: 1.1.2
       picocolors: 1.1.1
       sirv: 2.0.4
-      vitest: 3.0.5(@types/debug@4.1.12)(@types/node@20.17.9)(@vitest/ui@0.34.7)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(terser@5.38.0)
+      vitest: 3.0.5(@types/debug@4.1.12)(@types/node@20.17.9)(@vitest/ui@0.34.7)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@6.0.5))(terser@5.38.0)
 
   '@vitest/utils@0.34.7':
     dependencies:
