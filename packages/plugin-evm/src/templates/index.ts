@@ -215,3 +215,57 @@ Respond with a JSON markdown block containing only the extracted values. Use nul
 }
 \`\`\`
 `;
+// export const uniswapV4SwapTemplate = `Given the recent messages below:
+
+// {{recentMessages}}
+
+// Extract the following information about the requested Uniswap V4 token swap:
+// - Input token symbol or address (the token being sold)
+// - Output token symbol or address (the token being bought)
+// - Amount to swap: Must be a string representing the amount in ether
+// - Chain to execute on (must be "sepolia" for Uniswap V4)
+// - Whether this is an exact input or exact output swap
+// - Fee tier (optional, default to 10000 = 1%)
+// - Tick spacing (optional, default to 200)
+
+// Respond with a JSON markdown block containing only the extracted values:
+
+// \`\`\`json
+// {
+//     "inputToken": string | null,
+//     "outputToken": string | null,
+//     "amount": string | null,
+//     "exactInput": boolean,
+//     "chain": "sepolia",
+//     "fee": number | null,
+//     "tickSpacing": number | null
+// }
+// \`\`\``;
+
+// export const uniswapV4LiquidityTemplate = `Given the recent messages below:
+
+// {{recentMessages}}
+
+// Extract the following information about the requested Uniswap V4 liquidity provision:
+// - Token0 symbol or address (must be lower address than token1)
+// - Token1 symbol or address (must be higher address than token0)
+// - Amount0: Amount of token0 to provide
+// - Amount1: Amount of token1 to provide
+// - Fee tier (default to 10000 = 1%)
+// - Tick spacing (default to 200)
+// - Price range (optional, in terms of token1 per token0)
+
+// Respond with a JSON markdown block containing only the extracted values:
+
+// \`\`\`json
+// {
+//     "token0": string | null,
+//     "token1": string | null,
+//     "amount0": string | null,
+//     "amount1": string | null,
+//     "fee": number | null,
+//     "tickSpacing": number | null,
+//     "minPrice": string | null,
+//     "maxPrice": string | null
+// }
+// \`\`\``;
