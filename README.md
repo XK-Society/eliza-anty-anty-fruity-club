@@ -1,4 +1,7 @@
 # Anty Anty Fruit Club 
+ "Forage Smart, Survive Winter, Thrive Together"
+
+ This captures the essence of strategic DeFi activity (foraging), surviving bear markets (winter), and the community aspect (thriving together).
 ## Powered By Eliza 🤖
 ## 🚩 Overview
 
