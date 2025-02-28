@@ -7,7 +7,7 @@
 - P2p - Restake the eth to get the profit and survive the winter
 - Eliza - ofcos for the ai agent framework
 
-## Packages
+## Eliza Packages
 - P2p Eliza Package
 https://github.com/XK-Society/eliza-anty-anty-fruity-club/tree/main/packages/plugin-p2p
 
@@ -25,10 +25,15 @@ https://github.com/XK-Society/eliza-front-end-aafc
 AVS Price Oracle Eth Price
 https://github.com/XK-Society/Anty-Anty-Fruity-Club-AVS
 
+## Slide 
+https://www.canva.com/design/DAGgXMEdiao/8mKCzkzvKgPLn51DSvghWw/edit?utm_content=DAGgXMEdiao&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 <
 ## 🚩 Overview
 
-
+<p align="center">
+  <img src="./images/Logo.jpg" width="300" alt="Architecture">
+</p>
 ## ✨ Features
 
 - 🛠️ Full-featured Discord, X (Twitter) and Telegram connectors
