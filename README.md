@@ -1,6 +1,14 @@
 # Anty Anty Fruit Club 
 ## Powered By Eliza 🤖
+## 🚩 Overview
 
+<p align="center">
+  <img src="./images/Logo.jpg" width="600" alt="Architecture">
+</p>
+
+<p align="center">
+  <img src="./images/Logo2.png" width="600" alt="Architecture">
+</p>
 ## Tech Stacks
 - Gaia - ai model we utilize the gaianet model
 - Othentic X Uniswap - Price Oracle and validate the Eth price data with Defidive Api and uniswap eth data
@@ -29,11 +37,7 @@ https://github.com/XK-Society/Anty-Anty-Fruity-Club-AVS
 https://www.canva.com/design/DAGgXMEdiao/8mKCzkzvKgPLn51DSvghWw/edit?utm_content=DAGgXMEdiao&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 <
-## 🚩 Overview
 
-<p align="center">
-  <img src="./images/Logo.jpg" width="600" alt="Architecture">
-</p>
 ## ✨ Features
 
 - 🛠️ Full-featured Discord, X (Twitter) and Telegram connectors
