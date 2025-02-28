@@ -7,6 +7,15 @@
 - P2p - Restake the eth to get the profit and survive the winter
 - Eliza - ofcos for the ai agent framework
 
+## Packages
+- P2p Eliza Package
+https://github.com/XK-Society/eliza-anty-anty-fruity-club/tree/main/packages/plugin-p2p
+
+- Othentic Eliza Package
+https://github.com/XK-Society/eliza-anty-anty-fruity-club/tree/main/packages/plugin-othentic
+
+- Evm X uniswap v4 
+https://github.com/XK-Society/eliza-anty-anty-fruity-club/tree/main/packages/plugin-evm
 
 ## Other repos
 
