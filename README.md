@@ -32,7 +32,7 @@ https://www.canva.com/design/DAGgXMEdiao/8mKCzkzvKgPLn51DSvghWw/edit?utm_content
 ## 🚩 Overview
 
 <p align="center">
-  <img src="./images/Logo.jpg" width="300" alt="Architecture">
+  <img src="./images/Logo.jpg" width="600" alt="Architecture">
 </p>
 ## ✨ Features
 
