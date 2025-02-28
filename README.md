@@ -1,24 +1,24 @@
-# Eliza 🤖
+# Anty Anty Fruit Club 
+## Powered By Eliza 🤖
 
-<div align="center">
-  <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
-</div>
+## Tech Stacks
+- Gaia - ai model we utilize the gaianet model
+- Othentic X Uniswap - Price Oracle and validate the Eth price data with Defidive Api and uniswap eth data
+- P2p - Restake the eth to get the profit and survive the winter
+- Eliza - ofcos for the ai agent framework
 
-<div align="center">
 
-📑 [Technical Report](https://arxiv.org/pdf/2501.06781) |  📖 [Documentation](https://elizaos.github.io/eliza/) | 🎯 [Examples](https://github.com/thejoven/awesome-eliza)
+## Other repos
 
-</div>
+Front end adjusted only ( checkout the client side)
+https://github.com/XK-Society/eliza-front-end-aafc
 
-## 🌍 README Translations
+AVS Price Oracle Eth Price
+https://github.com/XK-Society/Anty-Anty-Fruity-Club-AVS
 
-[中文说明](i18n/readme/README_CN.md) | [日本語の説明](i18n/readme/README_JA.md) | [한국어 설명](i18n/readme/README_KOR.md) | [Persian](i18n/readme/README_FA.md) | [Français](i18n/readme/README_FR.md) | [Português](i18n/readme/README_PTBR.md) | [Türkçe](i18n/readme/README_TR.md) | [Русский](i18n/readme/README_RU.md) | [Español](i18n/readme/README_ES.md) | [Italiano](i18n/readme/README_IT.md) | [ไทย](i18n/readme/README_TH.md) | [Deutsch](i18n/readme/README_DE.md) | [Tiếng Việt](i18n/readme/README_VI.md) | [עִברִית](i18n/readme/README_HE.md) | [Tagalog](i18n/readme/README_TG.md) | [Polski](i18n/readme/README_PL.md) | [Arabic](i18n/readme/README_AR.md) | [Hungarian](i18n/readme/README_HU.md) | [Srpski](i18n/readme/README_RS.md) | [Română](i18n/readme/README_RO.md) | [Nederlands](i18n/readme/README_NL.md) | [Ελληνικά](i18n/readme/README_GR.md)
-
+<
 ## 🚩 Overview
 
-<div align="center">
-  <img src="./docs/static/img/eliza_diagram.png" alt="Eliza Diagram" width="100%" />
-</div>
 
 ## ✨ Features
 

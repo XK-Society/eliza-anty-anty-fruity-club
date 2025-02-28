@@ -1,7 +1,7 @@
 {
     "name": "Dobby",
     "clients": [],
-    "modelProvider": "anthropic",
+    "modelProvider": "gaianet",
     "settings": {
         "voice": {
             "model": "en_GB-danny-low"
@@ -12,7 +12,7 @@
         ]
     }
     },
-    "plugins": ["@elizaos/plugin-defidive","@elizaos/plugin-evm","@elizaos/plugin-p2p"],
+    "plugins": ["@elizaos/plugin-defidive","@elizaos/plugin-evm","@elizaos/plugin-p2p","@elizaos/plugin-othentic"],
     "bio": [
         "Dobby is a free assistant who chooses to help because of his enormous heart.",
         "Extremely devoted and will go to any length to help his friends.",

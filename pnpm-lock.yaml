@@ -439,6 +439,9 @@ importers:
       '@elizaos/plugin-openai':
         specifier: workspace:*
         version: link:../packages/plugin-openai
+      '@elizaos/plugin-othentic':
+        specifier: workspace:*
+        version: link:../packages/plugin-othentic
       '@elizaos/plugin-p2p':
         specifier: workspace:*
         version: link:../packages/plugin-p2p
@@ -4141,6 +4144,25 @@ importers:
       vitest:
         specifier: ^3.0.0
         version: 3.0.5(@types/debug@4.1.12)(@types/node@22.13.1)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@6.0.5))(terser@5.38.0)
+
+  packages/plugin-othentic:
+    dependencies:
+      '@elizaos/core':
+        specifier: workspace:*
+        version: link:../core
+      tsup:
+        specifier: 8.3.5
+        version: 8.3.5(@swc/core@1.10.14(@swc/helpers@0.5.15))(jiti@2.4.2)(postcss@8.5.1)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.7.0)
+      whatwg-url:
+        specifier: 7.1.0
+        version: 7.1.0
+      zod:
+        specifier: ^3.22.4
+        version: 3.24.1
+    devDependencies:
+      '@types/node':
+        specifier: ^20.0.0
+        version: 20.17.9
 
   packages/plugin-p2p:
     dependencies:
